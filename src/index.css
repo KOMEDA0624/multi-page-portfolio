@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* カスタムスクロールバー */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px; 
+  background: #f2f2f2; /* スクロールバーの背景色 */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f2f2f2; /* スクロールバーのつまみの色 */
+  border-radius: 9999px;
+  border: 1px solid #474747;
+  background-clip: content-box;
+  box-shadow: 0 2px 8px rgba(91,112,170,0.4);
+}
+
+::-webkit-scrollbar-track {
+  background: #535353; /* スクロールバーのトラック背景 */
+}
